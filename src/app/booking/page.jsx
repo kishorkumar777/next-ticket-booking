@@ -20,7 +20,7 @@ export default function BookingPage() {
       safariTime: selectedTicket.name === "Safari" ? selectedTime : null,
     };
     localStorage.setItem("bookingData", JSON.stringify(bookingData));
-    window.location.href = "/summary";
+    window.location.href = "./summary";
   };
 
   return (

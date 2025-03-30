@@ -22,7 +22,7 @@ export default function ConfirmationPage() {
 
         <button
           className="mt-6 bg-blue-600 text-white py-2 px-6 rounded text-lg"
-          onClick={() => router.push("/")}
+          onClick={() => router.push("./")}
         >
           Back to Home
         </button>

@@ -58,7 +58,7 @@ export default function PaymentPage() {
     setTimeout(() => {
       localStorage.removeItem("bookingData");
       setLoading(false);
-      router.push("/confirmation");
+      router.push("./confirmation");
     }, 2000);
   };
 

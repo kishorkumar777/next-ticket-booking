@@ -25,7 +25,7 @@ export default function BookingSummary() {
   const totalPrice = ticket.price * quantity;
 
   const handleProceedToPayment = () => {
-    router.push("/payment");
+    router.push("./payment");
   };
 
   return (
